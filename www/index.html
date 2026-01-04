@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>ΑΔΙΣΕ: Dominoes</title>
+
+    <!-- Bootstrap core CSS --> 
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mydominoes.css" rel="stylesheet">
+	<script src="bootstrap/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+	<script src="js/mydominoes.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<link href="jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet">
+  </head>
+<body>
+
+
+
+<h1 id='domino_title'>ΝΤΟΜΙΝΟ</h1>
+<div id='dominoes_board'>
+</div>
+<br/>
+<div id='game_initializer'>
+<input id='username'> 
+<select id='seat'>
+<option value='1'>Seat 1</option>
+<option value='2'>Seat 2</option>
+</select>
+<button id='dominoes_login' class='btn btn-primary'>ΕΙΣΟΔΟΣ ΣΤΟ ΠΑΙΧΝΙΔΙ</button><br>
+</div>
+<div id='game_info'>
+</div>
+
+
+ 
+
+<h1 id="title_player1"> player 1</h1>
+<div id='dominoes_player1'>
+</div>
+
+
+ 
+    <button id='take_piece1' class='btn btn-primary'>ΠΑΡΕ ΠΙΟΝΙ</button><br>
+   
+ 
+<h1 id="title_player2"> player 2 </h1>
+
+<div id='dominoes_player2'>
+</div>
+
+
+<div id='move_div'>
+    Δώσε κίνηση (x1 y1 x2 y2): <input id='the_move'>  <button id='do_move' class='btn btn-primary'>ΚΑΝΕ ΤΗΝ ΚΙΝΗΣΗ</button><br>
+    
+    <p>x1->playable piece potition(1-8)    <br>    y1->board potition( -1=left  ,  1=right )   <br>      x2->piece value(1-6)     <br>      y2->piece value(1-6)</p>
+</div>
+<br><br>
+<button id='dominoes_reset' class='btn btn-primary'>ΕΝΑΡΞΗ/RESET</button><br>
+
+
+</body>
+</html>
+
+
